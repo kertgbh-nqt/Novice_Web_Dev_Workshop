@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="Width=device-width, initial-scale=1.0">
+        <meta name="description" content="Tis is my first web page">
+        <meta name="keywords" content="HTML, web development, coding">
+        <meta name="author" content="John Doe">
+        <meta name="robots" content="index, follow">
+        <title>My First Web Page</title>
+    </head>
+    <header>
+        <nav class="header-nav">
+            <ul>
+                <li><a href="https://github.com/kertgbh-nqt">Git_Profile</a></li>
+                <li><a href="https://github.com/kertgbh-nqt/Novice_Web_Dev_Workshop">Novice_Web_Dev_Workshop</a></li>
+                <li><a href="https://www.youtube.com/watch?v=0Vyj1C8ogtE&ab_channel=RoseRanger">A music that i enjoy once in a while</a></li>
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">One that you might enjoy</a></li>
+                <li><a href="https://profile.intra.42.fr/users/mel-garr">Intra</a></li>
+            </ul>
+        </nav>
+    </header>
+    <body id="home-r">
+        <h1 class="head-one">HTML -Exercise 01</h1>
+        <p class="ktaba">Create a new HTML page that contains these folowing elements:</p>
+        <h2 class="head-two">Main elements:</h2>
+        <p class="ktaba">header,main,footer.</p>
+        <h2 class="head-two">Inside the header:</h2>
+        <p class="ktaba">There should be a navigation menu with at least 5 links that lead to other pages on your site</p>
+        <h2 class="head-two">Inside the main:</h2>
+        <p class="ktaba">Add some paragraphs.<br>Add an image to your page and use the "alt" attribute to provide a text description of the image.<br>
+        Add a form with fields for name, email, and message, and a "submit" button that sends the form data to an email address.
+        </p>
+        <h2 class="head-two">inside the footer:</h2>
+        <p class ="ktaba">Add a copyright paragraph and some links</p>
+        <img class="body__img"src="classic.jpg" alt="Hii!!">
+        <h3 class = "head-three">To join the party and start the devolution fill those</h3>
+        <form class = "form-designe" action="mailto:melgarraoui5@gmail.com" method="post" enctype="text/plain">
+            <label for="name" accesskey="n">Name:</label>
+            <input type="text" id="name" name ="name"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name ="email"><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea><br>
+            <input type="submit" value ="Submit">
+        </form>
+       <!-- <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>t</p>-->
+    </body>
+    <footer class="foot">
+        <p>&copy; 2023 Why not. no right to be reserved</p>
+        <ul>
+            <li><a href="https://www.youtube.com/watch?v=cDdv7q4jtiY&ab_channel=ComedyCentralAsia"> Privacy</a></li>
+            <li><a href="https://www.youtube.com/shorts/ub5_aJC5yU4">Terms of Use</a></li>
+            <li><a href="#home-r">Home</a></li>
+        </ul>
+    </footer>
+</html>
+
+<!-- class used 
+    header-nav ->for the navig in the header part
+    head-(one/two/three) ->for each type of heads
+    ktaba -> for every paragraphe
+    form-designe -> for anything int the form 
+    foot -> footer
+-->
+<!-- id used
+    id use same pricip as classes , the diff (i guess)for me for the moment
+    is that "class" are like "last name"(can be gived to anyone anywhere on my project-page)
+    meanwhile "id" are like "first name or inonde name" (is unique , can't have 2 on the same declaration &&
+    can't have 2 ids with same name);
+    + another use is 2 link 2 something on the same page +/-
+    id used :
+    "home-r" ->is send us to the 1st line of our body , i used -r
+    to avoid risking if "home" is a generic name
+-->
